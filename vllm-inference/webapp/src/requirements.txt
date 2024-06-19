@@ -1,0 +1,5 @@
+gradio==4.36.1
+Flask==2.2.2
+requests==2.31.0
+openai
+langchain_community
