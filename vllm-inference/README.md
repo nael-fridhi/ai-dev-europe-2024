@@ -15,9 +15,9 @@ One key reason behind vLLM’s speed during inference is its use of the 𝐏𝐚
 
 - TGI does not support paged optimization.
 
--Both techniques don’t handle all LLM architectures.
+- Both techniques don’t handle all LLM architectures.
 
--TGI also allows quantizing and fine-tuning models, which are not supported by vLLM.
+- TGI also allows quantizing and fine-tuning models, which are not supported by vLLM.
 
 -VLLM achieves better performance than TGI and the Hugging Face transformer library, with up to 24x higher throughput compared to Hugging Face and up to 3.5x higher throughput than TGI.
 This post shows how to serve OSS LLMs(Mistral 7B, or Llama2) model on L4 GPUs running on Google Cloud Kubernetes Engine (GKE). It will help you understand the AI/ML ready features of GKE and how to use them to serve large language models.
